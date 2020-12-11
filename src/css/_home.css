@@ -1,0 +1,142 @@
+#slider {
+  background-color: #000;
+  color: #fff;
+}
+
+.slide {
+  position: relative;
+  height: 90vh;
+}
+
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide__copy {
+  position: absolute;
+  top: 7.75rem;
+  left: 50vw;
+}
+
+.slide__copy h6 {
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1875rem;
+}
+
+.slide__copy h2 {
+  font-size: 6.25rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 6.25rem;
+}
+
+.slide__copy h2 span {
+  display: block;
+}
+
+#counter {
+  background-color: var(--color-primary);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.counter__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*novidade*/
+  place-items: center;
+  padding: 4.375rem 1rem;
+}
+
+.counter__container h3 {
+  font-size: 2.1875rem;
+}
+
+.counter__container h3 small {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.institutional {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.125rem; /* espaço entre colunas*/
+  align-items: center; /* alinhamento na vertical*/
+  padding: 4.375rem 1rem;
+}
+
+.institutional__image {
+  max-width: 550px;
+}
+
+.institutional__copy {
+  padding: 0 1.875 0 0;
+}
+
+.institutional__copy h6 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.institutional__copy h4 {
+  font-size: 1.5625;
+  margin-top: 1rem;
+}
+
+.institutional p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.065rem;
+  line-height: 1.6875rem;
+  margin-bottom: 0;
+  margin-bottom: 2.5rem;
+}
+
+.quote {
+  /*importante e útil */
+  background-image: url(../images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
+}
+
+.quote__copy {
+  background-color: #fff;
+  padding: 5.625rem 4.375rem;
+}
+
+.quote__copy h6 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.1875rem;
+  line-height: 1.4375rem;
+  max-width: 53ch; /* 75-120 caracteres é bom */
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.quote__copy h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.1875rem;
+  line-height: 5rem;
+  margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+  display: block;
+}
